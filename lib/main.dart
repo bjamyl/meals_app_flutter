@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
               .copyWith(secondary: Colors.amber)),
       home: const CategoriesScreen(),
       routes: {
-        CategoryMealsScreen.routeName: (context) => CategoryMealsScreen()
+        CategoryMealsScreen.routeName: (context) => const CategoryMealsScreen()
       },
     );
   }
